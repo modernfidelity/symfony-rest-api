@@ -1,3 +1,7 @@
+mofi_task:
+    resource: "@MofiTaskBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation

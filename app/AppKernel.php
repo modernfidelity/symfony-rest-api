@@ -18,6 +18,9 @@ class AppKernel extends Kernel {
       // CUSTOM
       new FOS\RestBundle\FOSRestBundle(),
       new JMS\SerializerBundle\JMSSerializerBundle(),
+      new Nelmio\CorsBundle\NelmioCorsBundle(),
+      new Mofi\TaskBundle\MofiTaskBundle(),
+
 
     );
 

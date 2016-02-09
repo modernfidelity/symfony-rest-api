@@ -1,0 +1,3 @@
+mofi_task_homepage:
+    path:     /
+    defaults: { _controller: MofiTaskBundle:Default:index }

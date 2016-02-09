@@ -1,0 +1,4 @@
+services:
+#    mofi_task.example:
+#        class: Mofi\TaskBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]
