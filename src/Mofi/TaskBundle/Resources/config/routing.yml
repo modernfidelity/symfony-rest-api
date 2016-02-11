@@ -1,3 +1,10 @@
 mofi_task_homepage:
     path:     /
     defaults: { _controller: MofiTaskBundle:Default:index }
+
+# Simple API version ID
+version:
+    pattern:  /version
+    defaults: { _controller: MofiTaskBundle:Rest:index, _format: json }
+    requirements:
+      _method: GET
