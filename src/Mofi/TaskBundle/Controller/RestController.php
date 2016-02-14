@@ -13,11 +13,24 @@ class RestController extends Controller {
    */
   public function indexAction() {
 
-    $data = "hello bob";
+    // demo list of objects
+    $item_list = array();
+
+    $item_list[] = array(
+      "id" => "uuid-v4",
+      "title" => "item1",
+      "img" => "s3://filename1",
+    );
+    $item_list[] = array(
+      "id" => "uuid-v4",
+      "title" => "item2",
+      "img" => "s3://filename2",
+    );
 
     $data = array(
 
-      "monkey" => "bob"
+      "monkey" => "bob",
+      "items" => $item_list
 
     );
 
