@@ -26,8 +26,12 @@
         "nelmio/cors-bundle": "^1.4",
         "friendsofsymfony/user-bundle": "~2.0@dev",
         "nelmio/api-doc-bundle": "^2.11",
+        "stof/doctrine-extensions-bundle": "^1.2",
+        "sonata-project/core-bundle": "^2.3@dev",
         "sonata-project/admin-bundle": "^2.3@dev",
-        "sonata-project/doctrine-orm-admin-bundle": "^2.3"
+        "sonata-project/doctrine-orm-admin-bundle": "^2.3",
+        "knplabs/knp-menu-bundle": "^2.0",
+        "lexik/jwt-authentication-bundle": "^1.4"
     },
     "require-dev": {
         "sensio/generator-bundle": "~3.0",
