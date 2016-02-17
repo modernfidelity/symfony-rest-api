@@ -1,4 +1,12 @@
-api
-===
+Symfony REST API
+==================
 
-A Symfony project created on February 9, 2016, 7:13 pm.
+A simple Symfony project to demo a REST API using JWT Auth in PHP.
+
+
+
+
+### Symfony Bundles Used  
+
+ - JWT : [https://github.com/lexik/LexikJWTAuthenticationBundle](https://github.com/lexik/LexikJWTAuthenticationBundle) 
+
