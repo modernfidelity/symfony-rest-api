@@ -152,5 +152,20 @@ class BlogPost
     {
         return $this->draft;
     }
+
+
+    /**
+     *
+     *
+     *
+     * @param $object
+     * @return string
+     */
+    public function toString($object)
+    {
+        return $object instanceof BlogPost
+            ? $object->getTitle()
+            : 'Blog Post'; // shown in the breadcrumb on the create view
+    }
 }
 
