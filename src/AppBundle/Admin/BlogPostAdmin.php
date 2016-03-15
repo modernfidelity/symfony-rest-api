@@ -19,7 +19,7 @@ class BlogPostAdmin extends Admin
 
 
             ->add('draft', CheckboxType::class, array(
-                'label'    => 'This is a draft version',
+                'label'    => 'is draft version',
                 'required' => false,
             ))
 
@@ -39,7 +39,9 @@ class BlogPostAdmin extends Admin
     {
         $listMapper
             ->add('title')
+            ->add('category.name')
             ->add('draft')
+
         ;
     }
 }
