@@ -33,7 +33,8 @@ framework:
 
 
 # Sonata Bundle : CORE
-sonata_core: ~
+sonata_core:
+    form_type: horizontal
 
 # Sonata Bundle : Block
 sonata_block:
