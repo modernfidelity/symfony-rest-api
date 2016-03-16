@@ -43,6 +43,20 @@ class BlogPostAdmin extends Admin
             ->add('draft')
 
         ;
+
+
+
     }
+
+//    protected function configureDatagridFilters(DatagridMapper $datagridMapper)
+//    {
+//        $datagridMapper
+//            ->add('title')
+//            ->add('category', null, array(), 'entity', array(
+//                'class'    => 'AppBundle\Entity\Category',
+//                'property' => 'name',
+//            ))
+//        ;
+//    }
 }
 
